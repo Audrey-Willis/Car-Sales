@@ -1,5 +1,5 @@
 
-//set initial state
+//removed the initial state from app.js and put it here-Audrey
 
 export const initialState = {
     additionalPrice: 0,
@@ -17,9 +17,9 @@ export const initialState = {
       { id: 4, name: 'Rear spoiler', price: 250 }
     ]
 }
-//created reducer
+//created reducer-Audrey
 export const reducer = (state = initialState, action) => {
-    //switch statement of action types
+    //switch statement of action types-Audrey
     switch (action.type) {
         case 'ADD_FEATURE': 
             return {

@@ -8,8 +8,8 @@ import 'bulma/css/bulma.css';
 import './styles.scss';
 
 const store = createStore(reducer);
-//created store
+//created store-Audrey
 
 
 const rootElement = document.getElementById('root');
-ReactDOM.render(<Provider store={store} ><App /></Provider>, rootElement); //wrapped in provider
+ReactDOM.render(<Provider store={store} ><App /></Provider>, rootElement); //wrapped in provider-Audrey

@@ -1,17 +1,16 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { ADD_FEATURE } from '../actions/actions';
- //imported needed items
+
 
 const AdditionalFeature = props => {
-  const dispatch = useDispatch() //called dispatch
+  const dispatch = useDispatch() //called the dispatch-Audrey
   return (
     <li>
-      {/* Add an onClick that will let you add a feature to your car */}
+      {/* Added an onClick event to the button that adds features-Audrey */}
       <button onClick={() => dispatch(ADD_FEATURE(props.feature))} className="button">Add</button>
       {props.feature.name} (+{props.feature.price})
     </li>
   );
 };
-//updated button above
 export default AdditionalFeature;

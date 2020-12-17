@@ -1,12 +1,11 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-//imported needed items
 
  const Header = () => {
 
  const car = useSelector(state => state.car);
 
-  return ( // removed props
+  return ( // removed props to prepare for redux-Audrey
     <>
       <figure className="image is-128x128">
         <img src={car.image} alt={car.name} /> 

@@ -6,4 +6,4 @@ export const REMOVE_FEATURE = featureInfo => {
     return { type: 'REMOVE_FEATURE', payload: featureInfo};
 }  
 
-//made actions for adding and removing a feature.
+//made actions for adding and removing a feature-Audrey.

@@ -6,7 +6,7 @@ import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 
 const App = () => {
- //removed state that was origionally placed in this component and moved it to the reducer page.
+ //removed state that was originally placed in this component and moved it to the reducer page.-Audrey
 
   return (
     <div className="boxes">
@@ -21,5 +21,5 @@ const App = () => {
     </div>
   );
 };
-//removed in line state properties
+//removed in line state properties-Audrey
 export default App;
